@@ -1,4 +1,4 @@
-baseURL = 'https://iluvchopin12.github.io/'
+baseURL = 'https://iluvchopin12.github.io/dkjang.github.io/'
 languageCode = 'en-us'
 title = 'DK Jang'
 theme = 'PaperMod'
@@ -6,3 +6,20 @@ publishDir = 'docs'
 
 [pagination]
   pagerSize = 10
+
+[params]
+  homeInfoParams = { Title = "Welcome!", Content = "Political Science | Sanctions, Conflict, and Methods" }
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
