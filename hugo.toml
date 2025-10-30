@@ -9,6 +9,10 @@ publishDir = 'docs'
 
 [params]
   homeInfoParams = { Title = "Welcome!", Content = "Political Science | Sanctions, Conflict, and Methods" }
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  showReadingTime = true
 
 [menu]
   [[menu.main]]
